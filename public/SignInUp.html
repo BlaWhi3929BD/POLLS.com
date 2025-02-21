@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Вход</title>
+</head>
+<body>
+    <header>
+        <div class="headerLogo">
+            <p><a href="index.html"><span>polls.</span>com</a></p>
+        </div>
+        <nav>
+            <div class="topnav">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="allPolls.html">ОПРОСЫ</a>
+                <a href="createPoll.html">СОЗДАТЬ ОПРОС</a>
+                <a href="SignInUp.html" id="login-a">ВОЙТИ</a>
+                <a href="#" id="logout">ВЫЙТИ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-form" id="loginContainer">
+            <h2>Вход</h2>
+            <form id="loginForm">
+                <input type="text" id="login" placeholder="Имя пользователя" required>
+                <input type="password" id="loginPassword" placeholder="Пароль" required>
+                <div id="loginError" class="error-message"></div>
+                <input type="submit" value="Войти">
+            </form>
+            <p>Еще не зарегистрированы? <a href="#" id="switchToSignup">Зарегистрироваться</a></p>
+        </div>
+    
+        <div class="signup-form" id="signupContainer" style="display: none;">
+            <h2>Регистрация</h2>
+            <form id="signupForm">
+                <input type="text" id="signupUsername" placeholder="Имя пользователя" required>
+                <input type="password" id="signupPassword" placeholder="Пароль" required>
+                <input type="password" id="confirmPassword" placeholder="Повторите пароль" required>
+                <div id="signupError" class="error-message"></div>
+                <input type="submit" value="Зарегистрироваться">
+            </form>
+            <p>Уже есть аккаунт? <a href="#" id="switchToLogin">Войти</a></p>
+        </div>
+    </main>
+    
+
+    <script src="SignInUp.js"></script>
+</body>
+</html>

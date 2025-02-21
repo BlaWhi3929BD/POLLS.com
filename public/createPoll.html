@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Создание опроса</title>
+</head>
+<body>
+<header>
+  <div class="headerLogo">
+    <p><a href="index.html"><span>polls.</span>com</a></p>
+  </div>
+  <nav>
+    <div class="topnav">
+      <a href="index.html">ГЛАВНАЯ</a>
+      <a href="allPolls.html">ОПРОСЫ</a>
+      <a href="#">СОЗДАТЬ ОПРОС</a>
+      <a href="SignInUp.html" id="login-a">ВОЙТИ</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="create-poll-form">
+    <h2>Создать Опрос</h2>
+    <form id="pollForm">
+      <label for="question">Вопрос:</label>
+      <input type="text" id="question" name="question" required>
+  
+      <label for="description">Описание:</label>
+      <textarea id="description" name="description"></textarea>
+  
+      <label for="answers">Ответы:</label>
+      <input type="text" class="answer" name="answer" placeholder="Вариант 1" required>
+      <div id="moreOptions"></div>
+      <button type="button" id="addOption">Добавить вариант</button>
+  
+      <button type="submit">Создать опрос</button>
+    </form>  
+  </div>
+</main>
+
+<script src="createPoll.js"></script>
+</body>
+</html>

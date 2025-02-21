@@ -1,0 +1,78 @@
+[
+  {
+    "question": "test",
+    "description": "",
+    "answers": [
+      {
+        "text": "test1",
+        "votes": 0,
+        "percentage": "0.0%"
+      },
+      {
+        "text": "test2",
+        "votes": 1,
+        "percentage": "100.0%"
+      }
+    ],
+    "author": "BlaWhi3929BD"
+  },
+  {
+    "question": "test2",
+    "description": "test",
+    "answers": [
+      {
+        "text": "test3",
+        "votes": 0,
+        "percentage": "0.0%"
+      },
+      {
+        "text": "test4",
+        "votes": 0,
+        "percentage": "0.0%"
+      },
+      {
+        "text": "test5",
+        "votes": 0,
+        "percentage": "0.0%"
+      },
+      {
+        "text": "test6",
+        "votes": 1,
+        "percentage": "100.0%"
+      },
+      {
+        "text": "test7",
+        "votes": 0,
+        "percentage": "0.0%"
+      }
+    ],
+    "author": "BlaWhi3929BD"
+  },
+  {
+    "question": "testAdmin",
+    "description": "test",
+    "answers": [
+      {
+        "text": "teest",
+        "votes": 0,
+        "percentage": "0%"
+      },
+      {
+        "text": "teeth",
+        "votes": 0,
+        "percentage": "0%"
+      },
+      {
+        "text": "tooth",
+        "votes": 0,
+        "percentage": "0%"
+      },
+      {
+        "text": "1",
+        "votes": 0,
+        "percentage": "0%"
+      }
+    ],
+    "author": "admin"
+  }
+]

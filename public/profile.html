@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Профиль</title>
+</head>
+<body>
+    <header>
+        <div class="headerLogo">
+            <p><a href="index.html"><span>polls.</span>com</a></p>
+        </div>
+        <nav>
+            <div class="topnav">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="allPolls.html">ОПРОСЫ</a>
+                <a href="SignInUp.html" id="login-a">ВОЙТИ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Профиль пользователя: <span id="username"></span></h1>
+        <div class="tabs">
+            <button class="tab-button" onclick="showTab('created')">Созданные опросы</button>
+            <button class="tab-button" onclick="showTab('voted')">Проголосованные опросы</button>
+        </div>
+        <div id="created" class="tab-content"></div>
+        <div id="voted" class="tab-content" style="display: none;"></div>
+    </main>
+
+    <script src="profile.js"></script>
+</body>
+</html>
