@@ -27,8 +27,8 @@
       },
       {
         "text": "test4",
-        "votes": 0,
-        "percentage": "0.0%"
+        "votes": 1,
+        "percentage": "50.0%"
       },
       {
         "text": "test5",
@@ -38,7 +38,7 @@
       {
         "text": "test6",
         "votes": 1,
-        "percentage": "100.0%"
+        "percentage": "50.0%"
       },
       {
         "text": "test7",
@@ -74,5 +74,32 @@
       }
     ],
     "author": "admin"
+  },
+  {
+    "question": "CFG",
+    "description": "",
+    "answers": [
+      {
+        "text": "5856",
+        "votes": 0,
+        "percentage": "0%"
+      },
+      {
+        "text": "345",
+        "votes": 0,
+        "percentage": "0%"
+      },
+      {
+        "text": "9",
+        "votes": 0,
+        "percentage": "0%"
+      },
+      {
+        "text": "-",
+        "votes": 0,
+        "percentage": "0%"
+      }
+    ],
+    "author": "1"
   }
 ]
